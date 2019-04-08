@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Course Sign-Up Page</title>
+  </head>
+  <body>
+<!-- First name/ Last name     -->
+    <form class="signup" action="Advanced_HTML_Quiz1.html" method="get">
+      <h1 style="background-color: darkred; color: lightgrey;">Course Sign-Up Page</h1>
+      <p>Please Note: First Name, Last Name, Password, and Email are required: </p>
+        <label for="firstName">First Name: </label>
+          <input id="firstName" type="text" name="" placeholder="First Name" required>
+        <label for="lastName">Last Name: </label>
+          <input id="lastName" type="text" name="" placeholder="Last Name" required>
+
+     <br>
+     <br>
+<!-- User email/ Password -->
+        <label for="userEmail">Email: </label>
+          <input id="userEmail" type="email" name="" placeholder="Email" required>
+        <label for="userPassword">Password: </label>
+          <input id="userPassword" type="password" name="" placeholder="Password" required>
+<!-- radio inputs -->
+        <p>Are you over the age of 18?</p>
+
+        <label for="over18RadioYes">Yes: </label>
+          <input id="over18Radio" type="radio" name="over18" value="Yes">
+        <label for="over18RadioNo">No: </label>
+          <input id="over18Radio" type="radio" name="over18" value="No">
+
+<!-- selector  -->
+        <p>Do you have a Credit Card or Paypal?</p>
+
+        <select class="crePay" name="selectorCrePay">
+          <option value="1">Credit Card</option>
+          <option value="2">Paypal</option>
+        </select>
+
+      <br>
+      <br>
+<!-- submit button      -->
+
+        <input type="submit" name="userSignUp" value="Sign-Up">
+     </form>
+
+  </body>
+</html>
